@@ -187,47 +187,48 @@ class Arena:
     def create_ability(self):
         '''Prompt for Ability information.
         return Abillity with values from user Input'''
-        name = input("What is the ability name")
+        name = input("What is the ability name?")
         max_damage = input("What is the max of the ability?')
         return Ability(name, max_damage)
         
 
     def create_weapon(self):
             '''Prompt user for Weapon information
-            return Weapon with values from user input.
-        '''
-        # TODO: This method will allow a user to create a weapon.
-        # Prompt the user for the necessary information to create a new weapon object.
-        # return the new weapon object.
-        pass
-
+            return Weapon with values from user input'''
+        weapon_name = input("Create a new weapon...")
+        max_damage = input("Max Damage.")
+        return weapon(weapon_name, int(max_damage))
 
     def create_armor(self):
-             '''Prompt user for Armor information
-          return Armor with values from user input.
-        '''
-        # TODO:This method will allow a user to create a piece of armor.
-        #  Prompt the user for the necessary information to create a new armor object.
-        #  return the new armor object with values set by user.
-        pass
-    
+        armor_name = input("Time to name your armor!")
+        armor_block = input("Max Armor block")
+        return armor(armor_type, int(max_damage)
 
-    def cerate_hero(self):
+    def create_hero(self):
          '''Prompt user for Hero information
           return Hero with values from user input.
         '''
         hero_name - input("Hero's name:")
-        hero = Hero(hero_name)
-        add_item =="1":
-        TODO add an ability to the hero
-        elif add_item == "3":
-           #TODO add an armor to the hero
-        return hero  
+        hero = Hero(hero name)
+        add_item = None 
+        while add_item !+ "4":
+            add_item = input("[1] Add ability\n[2] Add weapon\n[3 Add armor\n[4] Done adding items\n\nYour choice: ")
+            if add_item == "1':
+            elif add_item == "2":
+            elif add_item =="3"
+        return hero
+                "
 
 
     def build_team_one(self):
         '''Prompt the user to build team_one '''
         # TODO: This method should allow a user to create team one.
+        team_one - input(Create team one
+        team_one
+      
+ 
+
+
         # 1) Prompt the user for the name of the team
         # 2) Prompt the user for the number of Heroes on the team
         # 3) Instantiate a new Team object,
@@ -236,6 +237,16 @@ class Arena:
         # of heroes the user specified the team should have,
         # and then add the heroes to the team.
         pass
+
+ 
+
+
+
+
+
+
+
+
 
     def build_team_two(self):
         '''Prompt the user to build team_two'''
